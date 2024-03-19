@@ -16,6 +16,14 @@ body {
   color: #5a3e2b;
   font-family: "Quicksand";
   font-weight: 500;
+  background-color: #5a3e2b;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .app {
@@ -98,7 +106,7 @@ input {
 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.2rem;
+  gap: 1rem;
   justify-content: center;
   align-content: start;
 }
@@ -120,7 +128,7 @@ input[type="checkbox"] {
   background: none;
   border: none;
   font-size: 1.8rem;
-  padding: 0.8rem;
+  padding: 0.6rem;
   transform: translateY(2px);
 }
 
